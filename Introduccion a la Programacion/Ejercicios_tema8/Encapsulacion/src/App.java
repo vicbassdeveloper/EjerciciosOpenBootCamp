@@ -12,7 +12,6 @@ public class App {
         System.out.println(persona1.getTelefono());
 
     
-    
     }
 
     static class Persona  {
