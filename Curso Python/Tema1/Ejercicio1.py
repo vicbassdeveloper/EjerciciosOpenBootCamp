@@ -1,3 +1,3 @@
 print("Hola soy Victor")
-print("Estoy aprendiendo python")
+print("Estoy empezando el curso de python")
 print("Espero aprender mucho")
