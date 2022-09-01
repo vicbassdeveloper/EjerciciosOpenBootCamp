@@ -13,4 +13,4 @@ def m_salir():
 if h >= 19:
     print("Es hora de ir a casa")
 else:
-    print("Faltan",h_salir(), "horas con", m_salir(), "minutos para salir del trabajo")
+    print(f"Faltan {h_salir()} horas con {m_salir()} minutos para salir del trabajo")
