@@ -1,11 +1,10 @@
 import time
 
-hora = time.strftime("%H")
-minutos = time.strftime("%M")
-h = int(hora)
-m = int(minutos)
+h = int(time.strftime("%H"))
+m = int(time.strftime("%M"))
+
 
 if h >= 19:
-    print("Es hora de ir a casa")
+    print(f"Ya son las {h}:{m} es hora de ir a casa")
 else:
-    print(f"Faltan {18 - h} horas con {60 - m} minutos para salir del trabajo")
+    print(f"La hora es {h}:{m}. Faltan {18 - h}:{60 - m} hrs para salir del trabajo")
