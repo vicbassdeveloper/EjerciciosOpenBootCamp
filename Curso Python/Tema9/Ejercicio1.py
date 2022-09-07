@@ -24,13 +24,6 @@ paises2 = []
 for i in range(len(paises)):
     
     paises2.append(f"{normalize(paises[i])}")
-    
-def indice(a):
-    for i in range(len(a)):
-     if i == a:
-         return a[i]
-    return(paises[i])
-    
 
 
 while agpais != 0:
@@ -43,15 +36,20 @@ while agpais != 0:
         lista.append(pais)
         print(f"Se agrego {pais} a la lista")
     elif pais in paises2:
-        pais = indice(pais)
+        pais=paises2.index(pais)
+        pais=paises[pais]
         lista.append(pais)
         print(f"Se agrego {pais} a la lista")    
     else:
-        print("No es un pais, intenta de nuevo")    
+        print("No es un pais, intenta de nuevo")
+        
+    listafiltrada = []    
+    for pais in lista:
+        if pais not in listafiltrada:
+            listafiltrada.append(pais)
+         
 
-    agpais = int(input("Quieres agregar un nuevo pais? 1 = si, 0 = no: \n"))
+    agpais = int(input("Quieres agregar un nuevo pais? 1 = si, 0 = no:  "))
     
     
-print(lista)    
-     
-     
+print(f"Tu lista es \n{listafiltrada}")
