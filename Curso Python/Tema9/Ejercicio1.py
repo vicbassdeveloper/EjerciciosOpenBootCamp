@@ -1,4 +1,5 @@
 from dataclasses import replace
+from ntpath import join
 from operator import index
 
 
@@ -27,10 +28,8 @@ for i in range(len(paises)):
 
 
 while agpais != 0:
-    
     pais = (input("Agrega un pais: \n"))
     pais = f"{pais}"
-        
     
     if pais in paises:
         lista.append(pais)
@@ -42,14 +41,17 @@ while agpais != 0:
         print(f"Se agrego {pais} a la lista")    
     else:
         print("No es un pais, intenta de nuevo")
-        
-    listafiltrada = []    
-    for pais in lista:
-        if pais not in listafiltrada:
-            listafiltrada.append(pais)
-         
-
+    
     agpais = int(input("Quieres agregar un nuevo pais? 1 = si, 0 = no:  "))
     
+lista.sort
     
-print(f"Tu lista es \n{listafiltrada}")
+listafiltrada = []
+for pais in lista:
+    if pais not in listafiltrada:
+        listafiltrada.append(pais)
+            
+listafiltrada = "\n".join(sorted(list(set(listafiltrada))))
+
+    
+print(f"Esta es tu lista de paises: \n{listafiltrada}")
