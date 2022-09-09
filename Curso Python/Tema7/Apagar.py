@@ -5,7 +5,7 @@ h = int(time.strftime("%H"))
 m = int(time.strftime("%M"))
 
 
-if h >= 13:
+if h >= 18 and m >= 55:
     print(f"Ya son las {h}:{m} es hora de ir a casa")
     os.system("shutdown /s /t 300 /c \"Huye!!! el equipo explotara en 5 minutos, cierra todo y largo de aqui") 
 else:
