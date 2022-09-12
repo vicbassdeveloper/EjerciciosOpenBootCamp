@@ -6,7 +6,7 @@
 from tkinter import *
 
 def seleccionar():
-    monitor.config(text="{}".format(opcion.get()))
+    monitor.config(text=f"{opcion.get()}")
 def reset():
     opcion.set(None)
     monitor.config(text="")
