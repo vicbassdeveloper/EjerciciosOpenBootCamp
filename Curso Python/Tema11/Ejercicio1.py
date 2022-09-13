@@ -7,13 +7,26 @@
 
 import sqlite3
 
-conn = sqlite3.connect("reg.db")
-cursor = conn.cursor()
+conect = sqlite3.connect("reg.db")
+cursor = conect.cursor()
 
-cursor.execute("CREATE TABLE alumnos(Nombre TEXT, Apellido TEXT)")
-cursor.execute("INSERT INTO TABLE alumnos(Nombre, Apellido) VALUES(Victor, Aguilera)")
+cursor.execute("CREATE TABLE alumnos(ID INTEGER PRIMARY KEY AUTOINCREMENT, NOMBRE TEXT NOT NULL, APELLIDO TEXT NOT NULL);")
+cursor.execute("INSERT INTO alumnos(NOMBRE, APELLIDO) VALUES('ALFONSO', 'PEREZ');")
+cursor.execute("INSERT INTO alumnos(NOMBRE, APELLIDO) VALUES('ALBERTO', 'SUAREZ');")
+cursor.execute("INSERT INTO alumnos(NOMBRE, APELLIDO) VALUES('PATRICIA', 'ZANCHEZ');")
+cursor.execute("INSERT INTO alumnos(NOMBRE, APELLIDO) VALUES('GONZALO', 'RIOJA');")
+cursor.execute("INSERT INTO alumnos(NOMBRE, APELLIDO) VALUES('MARCO', 'CHAVEZ');")
+cursor.execute("INSERT INTO alumnos(NOMBRE, APELLIDO) VALUES('NICTE', 'VAZQUEZ');")
+cursor.execute("INSERT INTO alumnos(NOMBRE, APELLIDO) VALUES('ADRIANA', 'AGUIRRE');")
+cursor.execute("INSERT INTO alumnos(NOMBRE, APELLIDO) VALUES('MARIA', 'MENA');")
 
-conn.commit()
+conect.commit()
+
+cursor.execute("SELECT * FROM Alumnos WHERE Nombre = 'PATRICIA';")
+
+alumno = cursor.fetchall()
+
+print(alumno) 
 
 cursor.close()
-conn.close()
+conect.close()
