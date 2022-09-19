@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    {% block title %}<title>Local Library</title>{% endblock %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/dist/css/bootstrap.min.css">
+<script src="https://ajax.googleapis/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.boostrap.com/bootsrtap/3.3.7/js/bootstrap.min.js"></script>
+
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+   <div class="container-fluid">
+
+    <div class="row">
+        <div class="col-sm-2">        
+            {% block sidebar %}
+            <ul class="sidebar-nav">
+                <li><a href="{% url 'index' %}">Home</a></li>
+                <li><a href="">Todas las Peliculas</a></li>
+                <li><a href="">Todos los Directores</a></li>
+            </ul>
+                
+            {% endblock %}
+                
+        </div>
+        <div class="col-sm-10">
+            
+            {% block content %}
+                
+            {% endblock %}
+                
+        </div>
+
+    </div>
+   </div>
+
+
+</body>
+</html>

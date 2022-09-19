@@ -1,0 +1,21 @@
+{% extends 'base_generic.html' %}
+
+
+{% block content %}
+
+<h1>Local Library Home</h1>
+
+    <p>Bienvenido a la libreira Local</p>
+
+<h2>Contenido Dinamico</h2>
+    
+    <p>Los contenidos disponibles son:</p>
+    <ul>
+        <li><strong>Peliculas:</strong> {{ num_peliculas }} </li>
+        <li><strong>Peliculas Disponibles:</strong> {{ disponibles }} </li>
+        <li><strong>Generos:</strong> {{ num_genero }} </li>
+        <li><strong>Directores:</strong> {{ num_director }} </li>
+    </ul>
+
+{% endblock content %}
+    
