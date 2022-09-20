@@ -15,6 +15,8 @@ class Pelicula(models.Model):
     director = models.ForeignKey('Director', on_delete=models.SET_NULL, null=True)
     resumen = models.TextField(max_length=100, help_text='Sinopsis de Pelicula')
     genero = models.ManyToManyField(Genero)
+    imagen = models.URLField(max_length=200, null=True)
+    
     
     def __str__(self):
         return self.titulo
@@ -47,6 +49,8 @@ class Director(models.Model):
     apellido = models.CharField(max_length=100)   
     fecha_de_nacimiento = models.DateField(null=True, blank=True)
     fecha_finado= models.DateField('Died', null=True, blank=True)
+    imagen = models.URLField(max_length=200, null=True)
+
     
     def get_absolute_url(self):
         return reverse("Director_detail", args=[str(self.id)])
