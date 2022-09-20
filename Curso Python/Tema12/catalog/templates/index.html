@@ -1,13 +1,21 @@
 {% extends 'base_generic.html' %}
 
 
-{% block content %}
+{% block header %}
 
-<h1>Local Library Home</h1>
+<h1>Mundo de Peliculas</h1>
 
-    <p>Bienvenido a la libreira Local</p>
+    <p>Bienvenido a un mundo de Peliculas</p>
 
-<h2>Contenido Dinamico</h2>
+{% endblock %}
+
+
+{% block body %}
+    
+
+    
+
+<h2>Contador de Peliculas</h2>
     
     <p>Los contenidos disponibles son:</p>
     <ul>
@@ -17,5 +25,5 @@
         <li><strong>Directores:</strong> {{ num_director }} </li>
     </ul>
 
-{% endblock content %}
-    
+
+    {% endblock %}    

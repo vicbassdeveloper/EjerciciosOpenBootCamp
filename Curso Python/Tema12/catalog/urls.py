@@ -1,6 +1,9 @@
-from django.urls import re_path
+from django.urls import re_path, path
 from . import views
+from . views import index, peliculas
 
 urlpatterns = [
-    re_path(r'^$', views.index, name='index')
+    path('', index, name='admin-index'),
+    path('peliculas/', views.peliculas, name='peliculas'),
+    path('directores/', views.directores, name='directores'),
 ]

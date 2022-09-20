@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, HttpResponse
 from . models import Pelicula, PeliculaID, Director, Genero
 
 # Create your views here.
@@ -22,3 +22,18 @@ def index(request):
             'num_genero': num_genero,
         }
     )   
+    
+def peliculas(request):
+    nombre = Pelicula.titulo
+    return render(
+        request,
+        'peliculas.html'
+        )
+    
+def directores(request):
+    nombre = Director.nombre
+    apellido = Director.apellido
+    return render(
+        request,
+        'directores.html'
+    )    
