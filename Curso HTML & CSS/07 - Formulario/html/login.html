@@ -11,11 +11,21 @@
     <div class="container">
         <h3>Registrate en los formularios</h3>
         <div class="buttons">
+            <button class="google-btn">
+                <picture><img src="https://entredichos.trabajosocial.unlp.edu.ar/wp-content/uploads/sites/6/2016/12/Google_-G-_Logo.svg_.png" alt=""></picture>
+                <span>Registrarse con google</span>
+            </button>
+            <button class="twitter-btn">
+                <picture><img src="https://w7.pngwing.com/pngs/701/961/png-transparent-tweeter-logo-silhouette-monochrome-graphy-twitter-monochrome-tail-bird-thumbnail.png" alt=""></picture>
+            </button>
         </div>
         <div class="separator">
+            <hr>
+            <span>O</span>
+            <hr>
         </div>
         <form action="" method="">
-            <div>
+            <div class="section-inputs">
                 <label for="name">
                     <span>Name</span>
                     <input id="name" name="name">
@@ -31,13 +41,13 @@
             </label>
             <label for="password">
                 <span>Password</span>
-                <input id="password" name="password" placeholder="6+ caracteres">
+                <input id="password" type="password" placeholder="6+ caracteres">
             </label>
-            <label for="checkbox">
-                <input id="checkbox" name="checkbox">
+            <label for="checkbox" class="checkbox-label">
+                <input id="checkbox" type="checkbox">
                 <span>Acepto las condiciones y el aviso legal</span>
             </label>
-            <button type="submit">Crear cuenta</button>
+            <button type="submit" class="submit-btn">Crear cuenta</button>
         </form>
     </div>
 </body>
