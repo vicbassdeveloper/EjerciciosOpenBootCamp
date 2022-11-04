@@ -1,7 +1,7 @@
 const yo = [
     "Victor",
-     29,
-     true,
+    29,
+    true,
     new Date(1993, 7, 30),
     {
         titulo: "El castillo de Otranto",
