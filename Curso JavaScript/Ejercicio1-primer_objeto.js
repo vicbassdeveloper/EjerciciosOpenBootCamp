@@ -1,9 +1,9 @@
-const yo = {
-    nombre: "Victor",
-    edad: 29,
-    "¿Eres desarrollador?": true,
-    fecha_de_nacimiento: new Date(1993, 7, 30),
-    libro_favorito: {
+const yo = [
+    "Victor",
+     29,
+     true,
+    new Date(1993, 7, 30),
+    {
         titulo: "El castillo de Otranto",
         autor: "Horacio Walpole",
         fecha: new Date(1764),
@@ -11,5 +11,5 @@ const yo = {
     }
 
 
-}
+]
 
