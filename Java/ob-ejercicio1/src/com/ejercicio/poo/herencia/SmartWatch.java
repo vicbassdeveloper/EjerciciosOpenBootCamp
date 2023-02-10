@@ -1,6 +1,6 @@
 package com.example.poo.herencia;
 
-import com.example.poo.superClase.SmartDevice;
+import com.example.poo.clase.SmartDevice;
 
 public class SmartWatch extends SmartDevice {
 
