@@ -4,16 +4,17 @@ public class SmartDevice {
 
     // 1. Atributos
 
-    String fabricante;
-    String modelo;
-    String so;
-    int ram;
-    String color;
-    double version;
-    boolean wifi;
-    boolean bluetooth;
+    protected String fabricante;
+    protected String tipo;
+    protected String modelo;
+    protected String so;
+    protected int ram;
+    protected int almacenamiento;
+    protected String color;
 
-    double precio;
+    protected double precio;
+
+
 
 
     // 2. Constructores
@@ -22,21 +23,15 @@ public class SmartDevice {
 
     }
 
-    public SmartDevice(String fabricante, String modelo, double precio) {
-        this.fabricante = fabricante;
-        this.modelo = modelo;
-        this.precio = precio;
-    }
 
-    public SmartDevice(String fabricante, String modelo, String so, int ram, String color, double version, boolean wifi, boolean bluetooth, double precio) {
+    public SmartDevice(String fabricante, String tipo, String modelo, String so, int ram, int almacenamiento, String color, double precio) {
         this.fabricante = fabricante;
+        this.tipo = tipo;
         this.modelo = modelo;
         this.so = so;
         this.ram = ram;
+        this.almacenamiento = almacenamiento;
         this.color = color;
-        this.version = version;
-        this.wifi = wifi;
-        this.bluetooth = bluetooth;
         this.precio = precio;
     }
 

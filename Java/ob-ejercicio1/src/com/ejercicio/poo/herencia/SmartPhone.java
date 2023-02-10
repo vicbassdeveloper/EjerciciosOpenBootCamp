@@ -4,16 +4,16 @@ import com.example.poo.superClase.SmartDevice;
 
 public class SmartPhone extends SmartDevice {
 
-    double pantallaPulgadas;
-    int camara;
+    public double pantallaPulgadas;
+    public int camara;
 
 
     public SmartPhone() {
 
     }
 
-    public SmartPhone(String fabricante, String modelo, String so, int ram, String color, double version, boolean wifi, boolean bluetooth, double precio, double pantallaPulgadas, int camara) {
-        super(fabricante, modelo, so, ram, color, version, wifi, bluetooth, precio);
+    public SmartPhone(String fabricante, String tipo, String modelo, String so, int almacenamiento, int ram, String color, double precio, double pantallaPulgadas, int camara) {
+        super(fabricante,tipo, modelo, so, almacenamiento, ram, color, precio);
         this.pantallaPulgadas = pantallaPulgadas;
         this.camara = camara;
     }
