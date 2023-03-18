@@ -17,7 +17,6 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
 
-        { /*<Greetingf name="Victor"></Greetingf> */}
         <Componentea contacto={contacto}></Componentea>       
       </header>
     </div>
