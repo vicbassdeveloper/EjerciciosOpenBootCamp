@@ -17,18 +17,17 @@ function promesa () {
 promesa();
 
 
+
 // - Una función generadora de índices pares automáticos
 
-function pares() {
-    let id = 0;
-
-    while(true){
-        id += 2;
+function* idPares() {
+    let id = 0
+    while(true) {
+        yield id += 2
     }
-
 }
 
-console.log(pares());
+console.log(idPares());
 
 
 
