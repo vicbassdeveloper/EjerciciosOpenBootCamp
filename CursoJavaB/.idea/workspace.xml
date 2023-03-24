@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9f0891df-b348-4d62-aa0a-842e7b730547" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../CursoJava/Curso Java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/src/com/ejercicio/clases/clase/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CursoJava/src/com/ejercicio/clases/clase/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/src/com/ejercicio/clases/clase/SmartDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CursoJava/src/com/ejercicio/clases/clase/SmartDevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/src/com/ejercicio/clases/herencia/SmartPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CursoJava/src/com/ejercicio/clases/herencia/SmartPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/src/com/ejercicio/clases/herencia/SmartWatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CursoJava/src/com/ejercicio/clases/herencia/SmartWatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/src/com/ejercicio/estructurasControl/Bucles.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CursoJava/src/com/ejercicio/estructurasControl/Bucles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/src/com/ejercicio/funciones/PrecioIva.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/src/com/ejercicio/implementacion/CocheCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CursoJava/src/com/ejercicio/implementacion/CocheCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/src/com/ejercicio/implementacion/CocheCrudImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CursoJava/src/com/ejercicio/implementacion/CocheCrudImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/src/com/ejercicio/implementacion/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CursoJava/src/com/ejercicio/implementacion/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/src/com/ejercicio/implementacion/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/../CursoJava/src/com/ejercicio/implementacion/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/src/com/ejercicio/tipos/AdiosMundo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CursoJava/src/com/ejercicio/tipos/AdiosMundo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/src/com/ejercicio/tipos/HolaMundo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CursoJava/src/com/ejercicio/tipos/HolaMundo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoJava/src/com/ejercicio/tipos/Tipos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CursoJava/src/com/ejercicio/tipos/Tipos.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LpyM1QljlFUqiBbOLhZjW9m6OQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="ListaDuplicada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ejercicio.ejercicios789.ListaDuplicada" />
+      <module name="CursoJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ejercicio.ejercicios789.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ejercicio.clases.clase.Main" />
+      <module name="CursoJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ejercicio.clases.clase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPrueba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ejercicio.ejercicios789.MainPrueba" />
+      <module name="CursoJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ejercicio.ejercicios789.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NuevoUsuario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ejercicio.ejercicios789.Programa.NuevoUsuario" />
+      <module name="CursoJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ejercicio.ejercicios789.Programa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="copiaFichero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ejercicio.ejercicios789.copiaFichero" />
+      <module name="CursoJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ejercicio.ejercicios789.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="CursoJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="CursoJava" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.NuevoUsuario" />
+        <item itemvalue="Application.ListaDuplicada" />
+        <item itemvalue="Application.MainPrueba" />
+        <item itemvalue="Application.copiaFichero" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f0891df-b348-4d62-aa0a-842e7b730547" name="Changes" comment="" />
+      <created>1676582269862</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676582269862</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
