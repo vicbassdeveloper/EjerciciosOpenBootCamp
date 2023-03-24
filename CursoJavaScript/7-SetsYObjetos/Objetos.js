@@ -16,7 +16,7 @@ const lista = [{...yo},
     {nombre: "Irak", apellido: "Uribe", edad: 27, altura: 1.68, eresDesarrollador: false},
     {nombre: "Alextri", apellido: "Uribe", edad: 32, altura: 1.72, eresDesarrollador: false},
     {nombre: "Jair", apellido: "Diaz", edad: 31, altura: 1.68, eresDesarrollador:false}]
-console.log(lista)
+console.log(lista);
 
 // - Una nueva lista con los objetos de la lista anterior ordenados por edad, de mayor a menor
 

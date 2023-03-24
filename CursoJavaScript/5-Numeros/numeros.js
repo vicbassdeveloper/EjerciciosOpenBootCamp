@@ -23,6 +23,6 @@ let pesoRMenos = console.log("Peso redondeado hacia abajo "+Math.round(peso)+"kg
 if (maxnumber + 1 === maxnumber){
     respuesta = "es igual";
 } else {
-    respuesta = "no es igual"
+    respuesta = "no es igual";
 }
 let maxVal = console.log("El máximo valor que se puede obtener en Javascript + 1 " + respuesta + " al máximo valor que se puede obtener en Javascript");

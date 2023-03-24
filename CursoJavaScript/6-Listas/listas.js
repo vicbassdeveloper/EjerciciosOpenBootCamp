@@ -46,14 +46,14 @@ console.log(titulos);
 
 // Una nueva lista que concatene la lista de directores y la lista de los títulos (utilizando concat)
 
-const peliculaTYDCon = directores.concat(titulos)
+const peliculaTYDCon = directores.concat(titulos);
 
-console.log(peliculaTYDCon)
+console.log(peliculaTYDCon);
 
 
 // Una nueva lista que concatene la lista de directores y la lista de los títulos (utilizando el factor de propagación)
 
-const peliculaTYDProp = [...directores, ...titulos]
+const peliculaTYDProp = [...directores, ...titulos];
 
-console.log(peliculaTYDProp)
+console.log(peliculaTYDProp);
 

@@ -4,10 +4,12 @@
 
 //const moduloMatematicas = require("./modulo/matematicas.js")
 
-const { factorial, suma } = require("./modulo/matematicas.js")
+const { factorial, suma } = require("./modulo/matematicas.js");
 
-const fact = factorial(5)
-console.log(fact)
+const fact = factorial(5);
 
-const sum = suma(22,20)
-console.log(sum)
+console.log(fact);
+
+const sum = suma(22,20);
+
+console.log(sum);
