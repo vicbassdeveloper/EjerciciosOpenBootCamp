@@ -25,3 +25,15 @@ secciones.forEach(seccion => {
         seccion.appendChild(parrafo)
     })
 })
+
+const eliminar = document.querySelector(".eliminar") 
+
+eliminar.addEventListener("dragover", event => {
+     event.preventDefault()
+    event.dataTransfer.dropEffect = "copy"
+})
+
+eliminar.addEventListener("drop", event => {
+    const id_parrafo = event.dataTransfer.getData("id")
+    document.getElementById(id_parrafo).remove()
+})
