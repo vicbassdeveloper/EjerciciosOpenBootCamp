@@ -16,20 +16,30 @@ function initMap() {
     })
 
     
-    const oslo = addMarker ( "Oslo", 59.90893186736404, 10.684174256108076 )
+    const oslo = newMarker()
+    /*addMarker ( "Oslo", 59.90893186736404, 10.684174256108076 )
     const alemania = addMarker ( "Alemania", 54.02271144014345, 9.381668177154813 )
     const finlandia = addMarker ( "Finlandia", 62.02509420571354, 25.69453336229307 )
-    const noruega = addMarker ( "Noruega", 48.97495051840249, 31.879165403133474 )    
+    const noruega = addMarker ( "Noruega", 48.97495051840249, 31.879165403133474 )    */
 
-    centraMapa(oslo)
     
     /**
  * Funcion que solicita los paramatros: titulo, altitud y longitud.
  * 
  * Esto añade un marcador a tu mapa
  */
+
+function newMarker() {
+    new google.maps.Marker({
+        position: {
+            lat: 59.90893186736404,
+            lng: 10.684174256108076
+        },
+        map,
+        title: "OSLO"})
+}
+
 function addMarker(titulo, latitude, longitude) {
-    markers.push(
         new google.maps.Marker({
             position: {
                 lat: latitude,
@@ -38,9 +48,10 @@ function addMarker(titulo, latitude, longitude) {
             map,
             title: titulo
         })
-        )
+
 }
 
+console.log(JSON.stringify(oslo))
     
     //obtener la geolocalizacion
     //marker.setPosition({ lat, lang})
